@@ -1,1 +1,1 @@
-declare const __brand: unique symbol;
+export declare const __brand: unique symbol;

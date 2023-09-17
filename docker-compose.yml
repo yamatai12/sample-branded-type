@@ -7,5 +7,4 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/app
-    command: sh -c "cd app"
-
+    command: sh -c "cd app && npm run start"
